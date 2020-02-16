@@ -1,41 +1,21 @@
-body {
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap" rel="stylesheet");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body{
+	font-family: 'Lora', serif;
+	font size: 18px;
 
-  background-color: rgb(30;30;30);
-  color: rgb(210;201;210);
-  font-family: fantasy;
 }
 
-h1, h2, h3 {
-color: green;
-font-family: 'Lora', serif;
-font-weight: 200;
-letter-spacing: 5px;
-font-size: 40px;
+h1,h2,h3{
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
 }
 
-a { 
-text-decoration: none;
-color: blue;
-font-weight: bold;
-font-size: 50px;
-}
+a{
+	text-decoration: none;
 
-a:hover  { 
-color: purple;
-font-weight: bold;
-font-size: 50px;
-}	
-
-
-
-#profilepicture { 
-width: 300px;
-margin: 90px;
-}
-
-
-
-.container {
-width: 700px;
-margin: 40px auto
-}
+} 
